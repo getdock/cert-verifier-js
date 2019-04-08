@@ -17,7 +17,6 @@
     "build:esm": "rollup -c",
     "build:es5": "rollup -c rollup-es5.config.js",
     "lint": "semistandard --verbose | snazzy",
-    "prepush": "npm run test && npm run lint",
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
